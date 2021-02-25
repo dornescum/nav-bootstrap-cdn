@@ -31,6 +31,15 @@
               <li>
                 <router-link to="/contact">Contact</router-link>
               </li>
+          <li>
+                <router-link to="/sustine">Sustine</router-link>
+              </li>
+<li>
+                <router-link to="/bibliografie">Bibliografie</router-link>
+              </li>
+<li>
+                <router-link to="/contact">Contact</router-link>
+              </li>
 
               <li>
                 <hr class="dropdown-divider">

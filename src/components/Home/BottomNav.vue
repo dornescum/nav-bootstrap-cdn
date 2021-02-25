@@ -1,31 +1,121 @@
 <template>
-  <ul class="bottom-nav">
+  <div class="container">
+    <ul class="bottom-nav mt-3">
 
-    <div class="dropdown">
-      <button id="BottomNav1" aria-expanded="false" class="btn dropdown-toggle bottom-btn"
-              data-bs-toggle="dropdown"
-              type="button">
-        Poetii
-      </button>
-      <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
-        <li>
-          <router-link to="/about">About</router-link>
-        </li>
-        <li>
-          <router-link to="/about">About</router-link>
-        </li>
-        <li>
-          <router-link to="/contact">Contact</router-link>
-        </li>
-        <li>
-          <router-link to="/bibliografie">Bibliografie</router-link>
-        </li>
-      </ul>
-    </div>
+      <div class="dropdown">
+        <button id="BottomNav1" aria-expanded="false" class="dropdown-toggle bottom-btn"
+                data-bs-toggle="dropdown"
+                type="button">
+          Poetii
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/bibliografie">Bibliografie</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button id="BottomNav2" aria-expanded="false" class="dropdown-toggle bottom-btn"
+                data-bs-toggle="dropdown"
+                type="button">
+          Poetii
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/bibliografie">Bibliografie</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button id="BottomNav3" aria-expanded="false" class="dropdown-toggle bottom-btn"
+                data-bs-toggle="dropdown"
+                type="button">
+          Poetii
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/bibliografie">Bibliografie</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button id="BottomNav4" aria-expanded="false" class="dropdown-toggle bottom-btn"
+                data-bs-toggle="dropdown"
+                type="button">
+          Poetii
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/bibliografie">Bibliografie</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button id="BottomNav5" aria-expanded="false" class="dropdown-toggle bottom-btn"
+                data-bs-toggle="dropdown"
+                type="button">
+          Poetii
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
+          <li>
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/bibliografie">Bibliografie</router-link>
+          </li>
+        </ul>
+      </div>
 
 
+    </ul>
+  </div>
 
-  </ul>
 
 </template>
 
@@ -40,7 +130,7 @@ export default {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  padding: 2px 5px;
+  padding: 2px 0px;
 }
 
 ul li {
@@ -60,7 +150,7 @@ ul li {
 a {
   padding: 10px;
   background: var(--grey-6);
-  width: 225px;
+  width: 200px;
   transition: var(--transition);
   color: var(--grey-1) !important;
 }
@@ -68,13 +158,16 @@ a {
 a:hover {
   background: var(--silver-1);
 }
-.bottom-btn{
-  width: 270px;
+
+.bottom-btn {
+  width: 220px;
   background: var(--grey-6);
   border-radius: 0;
+  border: none;
   outline: none;
 }
-.dropdown-btn{
+
+.dropdown-btn {
   width: 270px;
   background: var(--grey-6);
   border-radius: 0;
@@ -82,65 +175,66 @@ a:hover {
 }
 
 /*@media screen and (max-width: 1440px){*/
-/*  a {*/
+/* .bottom-btn {*/
 /*    width: 200px;*/
 /*  }*/
 /*}*/
-/*@media screen and (max-width: 1300px){*/
-/*  a {*/
-/*    width: 180px;*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 1200px){*/
-/*  a {*/
-/*    width: 150px;*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 1100px){*/
-/*  a {*/
-/*    width: 130px;*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 992px){*/
-/*  a {*/
-/*    width: 100px;*/
-/*    padding: 5px;*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 768px){*/
-/*  ul {*/
-/*    flex-direction: column;*/
-/*  }*/
-/*  li{*/
-/*    width: 100%;*/
-/*    display: block;*/
-/*  }*/
-/*  a {*/
-/*    width: 100%;*/
-/*    padding: 3px;*/
-/*    font-size: 14px;*/
-/*    background: var(--grey-2);*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 599px){*/
-/*  a {*/
+@media screen and (max-width: 1300px){
+  .bottom-btn {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1200px){
+  .bottom-btn {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1100px){
+  .bottom-btn {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 992px){
+  .bottom-btn{
+    width: 100px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 768px){
+  ul {
+    flex-direction: column;
+  }
+  li{
+    width: 100%;
+    display: block;
+    padding: 5px;
 
-/*    padding: 3px;*/
-/*    font-size: 12px;*/
-/*  }*/
-/*}*/
-/*@media screen and (max-width: 400px){*/
-/*  a {*/
+  }
+  .bottom-btn {
+    width: 100%;
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    background: var(--grey-6);
+  }
+}
+@media screen and (max-width: 599px){
+  .bottom-btn {
+    padding: 3px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px){
+  a {
 
-/*    padding: 3px;*/
-/*    font-size: 12px;*/
-/*  }*/
-/*  ul{*/
-/*    margin: 1px;*/
-/*  }*/
-/*  ul li{*/
-/*    padding: 2px;*/
-/*  }*/
-/*}*/
+    padding: 5px;
+    font-size: 12px;
+  }
+  ul{
+    margin: 1px;
+  }
+  ul li a{
+    padding: 2px;
+  }
+}
 
 </style>

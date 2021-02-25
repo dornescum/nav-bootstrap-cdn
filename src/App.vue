@@ -45,6 +45,7 @@ export default {
   --transition: all 0.3s linear;
   --transition-2: all 0.1s linear;
   --spacing: 0.1rem;
+  --spacing-2: 1.2px;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
@@ -62,7 +63,7 @@ export default {
   }
 
 .grey-background {
-  background: var(--grey-2);
+  background: var(--grey-4);
 }
 
 /*//font*/
@@ -128,7 +129,23 @@ export default {
   margin-bottom: 5rem;
 }
 
-
+.display-flex-sb{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 30px;
+  background: var(--red-1);
+  color: var(--white);
+}
+.display-flex-ct{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+.border-left{
+  border-left: 1px solid var(--grey-3);
+}
 
 /*#nav {*/
 /*  padding: 30px;*/
