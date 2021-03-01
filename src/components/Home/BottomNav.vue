@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <ul class="bottom-nav mt-3">
-
+<!--poetii-->
       <div class="dropdown">
         <button id="BottomNav1" aria-expanded="false" class="dropdown-toggle bottom-btn"
                 data-bs-toggle="dropdown"
@@ -23,12 +23,12 @@
           </li>
         </ul>
       </div>
-
+<!--poezia-->
       <div class="dropdown">
         <button id="BottomNav2" aria-expanded="false" class="dropdown-toggle bottom-btn"
                 data-bs-toggle="dropdown"
                 type="button">
-          Poetii
+          Poezia
         </button>
         <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
           <li>
@@ -45,12 +45,12 @@
           </li>
         </ul>
       </div>
-
+<!--momentul creatiei-->
       <div class="dropdown">
         <button id="BottomNav3" aria-expanded="false" class="dropdown-toggle bottom-btn"
                 data-bs-toggle="dropdown"
                 type="button">
-          Poetii
+          Momentul Creatiei
         </button>
         <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
           <li>
@@ -67,12 +67,12 @@
           </li>
         </ul>
       </div>
-
+<!--videoteca-->
       <div class="dropdown">
         <button id="BottomNav4" aria-expanded="false" class="dropdown-toggle bottom-btn"
                 data-bs-toggle="dropdown"
                 type="button">
-          Poetii
+          Videoteca
         </button>
         <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
           <li>
@@ -89,12 +89,12 @@
           </li>
         </ul>
       </div>
-
+<!--in prezent-->
       <div class="dropdown">
         <button id="BottomNav5" aria-expanded="false" class="dropdown-toggle bottom-btn"
                 data-bs-toggle="dropdown"
                 type="button">
-          Poetii
+         In Prezent
         </button>
         <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu dropdown-btn">
           <li>
@@ -171,7 +171,9 @@ a:hover {
   width: 270px;
   background: var(--grey-6);
   border-radius: 0;
-
+}
+.dropdown-toggle::after{
+  color: red;
 }
 
 /*@media screen and (max-width: 1440px){*/

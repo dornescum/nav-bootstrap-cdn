@@ -56,6 +56,14 @@ export default {
   --lineHeight-2: 1.2rem;
   --line-spacing: 1.2px;
 }
+/*general*/
+ul{
+  list-style: none;
+}
+li {
+  text-decoration: none;
+}
+
 
 /*//colors*/
   .white-background {
