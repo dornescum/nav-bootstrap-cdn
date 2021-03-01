@@ -7,6 +7,8 @@
     <Foamea />
     <Videoteca/>
     <Video/>
+    <Comemorari />
+    <Poetii />
   </div>
 </template>
 
@@ -19,6 +21,8 @@ import Evenimente from "@/components/Home/Evenimente";
 import Foamea from "@/components/Home/Foamea";
 import Videoteca from "@/components/Home/Videoteca";
 import Video from "@/components/Home/Video";
+import Comemorari from "@/components/Home/Comemorari";
+import Poetii from "@/components/Home/Poetii";
 
 export default {
   name: 'Home',
@@ -29,7 +33,9 @@ export default {
     Evenimente,
     Foamea,
     Videoteca,
-    Video
+    Video,
+    Comemorari,
+    Poetii
   }
 }
 </script>

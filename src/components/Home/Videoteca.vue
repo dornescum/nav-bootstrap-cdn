@@ -16,7 +16,7 @@
            </li>
           <li class="link-video">
             <a href="#"> documentare</a>
-            </li>
+          </li>
         </ul>
       </div>
     </div>
@@ -57,5 +57,17 @@ ul {
 a{
   color: var(--white);
   text-decoration: none;
+}
+@media screen and (max-width: 768px){
+  .display-flex-sb{
+    flex-direction: column;
+  }
+  .display-flex-ct{
+    flex-direction: column;
+    font-size: 0.8rem ;
+  }
+  .video-title{
+    font-size: 1.5rem;
+  }
 }
 </style>

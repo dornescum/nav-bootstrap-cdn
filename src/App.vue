@@ -70,6 +70,14 @@ export default {
   .font-20 {
     font-size: 20px;
   }
+  .red-background{
+    background: var(--red-1);
+   padding: 3px;
+  }
+  .black-background{
+    background: var(--black-1);
+    padding: 2px;
+  }
 
 /*//padding*/
   .p-1 {
