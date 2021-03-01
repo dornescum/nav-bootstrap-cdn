@@ -52,7 +52,7 @@
             </a>
             <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
               <li>
-                <router-link to="/">Sustine</router-link>
+                <router-link to="/paginaArticol">Pagina Articol</router-link>
               </li>
               <li>
                 <router-link to="/contact">Contact</router-link>

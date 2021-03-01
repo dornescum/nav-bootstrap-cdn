@@ -6,14 +6,17 @@
       <TheNavbar/>
     </div>
     <router-view/>
+    <TheFooter />
   </div>
 </template>
 
 <script>
 import TheNavbar from "./components/Ui/TheNavbar";
+import TheFooter from "@/components/Ui/TheFooter";
 export default {
   components:{
-    TheNavbar
+    TheNavbar,
+    TheFooter
   }
 }
 </script>
@@ -63,7 +66,9 @@ ul{
 li {
   text-decoration: none;
 }
-
+span {
+  text-decoration: none;
+}
 
 /*//colors*/
   .white-background {
@@ -73,19 +78,30 @@ li {
 .grey-background {
   background: var(--grey-4);
 }
+.color-red {
+  color: var(--red-1);
+  font-weight: bold;
+}
+.color-grey{
+  color: var(--font-grey);
+}
+.red-background{
+  background: var(--red-1);
+  padding: 2px;
+}
+.black-background{
+  background: var(--black-1);
+  padding: 1px;
+}
 
 /*//font*/
   .font-20 {
     font-size: 20px;
   }
-  .red-background{
-    background: var(--red-1);
-   padding: 3px;
+  .text-uppercase{
+    text-transform: uppercase;
   }
-  .black-background{
-    background: var(--black-1);
-    padding: 2px;
-  }
+
 
 /*//padding*/
   .p-1 {
