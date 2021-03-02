@@ -1,8 +1,8 @@
 {
   "books": [
     {
-      "title": "gigi",
-      "autor": "gigi duru",
+      "title": "Nichifor Crainic",
+      "autor": "Biografie",
       "editura": "tei",
       "orasul": "Cluj",
       "editia": "1",
@@ -11,8 +11,8 @@
       "id": 1
     },
       {
-      "title": "gigi1",
-      "autor": "gigi duru",
+      "title": "Nichifor Crainic1",
+      "autor": "Biografie",
       "editura": "tei",
       "orasul": "Bucuresti",
       "editia": "1",
@@ -21,8 +21,8 @@
         "id": 2
       },
       {
-      "title": "gigi2",
-      "autor": "gigi duru",
+      "title": "Nichifor Crainic2",
+      "autor": "Biografie",
       "editura": "tei",
       "orasul": "Constanta",
       "editia": "1",
@@ -31,8 +31,8 @@
         "id":3
       },
       {
-      "title": "gigi3",
-      "autor": "gigi duru",
+      "title": "Nichifor Crainic3",
+      "autor": "Biografie",
       "editura": "tei",
       "orasul": "Timisoara",
       "editia": "1",
