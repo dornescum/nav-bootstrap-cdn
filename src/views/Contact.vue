@@ -1,5 +1,5 @@
 <template>
-<h1>component</h1>
+<h1 class="mt-6">component</h1>
 </template>
 
 <script>

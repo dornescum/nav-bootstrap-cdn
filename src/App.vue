@@ -140,6 +140,19 @@ span {
 .mt-2 {
   margin-top: 2rem;
 }
+.mt-4{
+  margin-top: 4rem;
+}
+.mt-5{
+  margin-top: 5rem;
+}
+.mt-6{
+  margin-top: 6rem;
+}
+
+.mt-8{
+  margin-top: 8rem;
+}
 
 .mb-1 {
   margin-bottom: 1rem;
@@ -159,6 +172,10 @@ span {
 
 .mb-5 {
   margin-bottom: 5rem;
+}
+
+.main_container{
+  margin-top: 4rem;
 }
 
 .display-flex-sb{

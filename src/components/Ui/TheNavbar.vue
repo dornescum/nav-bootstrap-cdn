@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <!--      <a class="navbar-brand" href="#">Navbar</a>-->
       <router-link id="logo" to="/">
@@ -73,7 +73,7 @@
             </a>
             <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
               <li>
-                <router-link to="/sustine">Sustine</router-link>
+                <router-link to="/biografiePoet">Biografie Poet</router-link>
               </li>
               <li>
                 <router-link to="/contact">Contact</router-link>
@@ -171,7 +171,7 @@ a:hover{
   border-radius: 5px;
 }
 a.router-link-exact-active {
-  color: var(--red-1);
+  color: var(--black-1);
 }
 ul{
   /*transition: var(--transition);*/

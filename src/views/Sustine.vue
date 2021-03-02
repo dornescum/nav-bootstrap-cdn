@@ -1,5 +1,5 @@
 <template>
-<h1>sustine</h1>
+<h1 class="mt-8">sustine</h1>
 </template>
 
 <script>

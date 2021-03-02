@@ -27,7 +27,7 @@ name: "BibliogarfiePagination"
 .pagination a {
   color: black;
   float: left;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   text-decoration: none;
 }
 
@@ -37,5 +37,9 @@ name: "BibliogarfiePagination"
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
-
+@media (max-width: 992px){
+  .pagination a{
+    padding: 0.5rem 0.7rem;
+  }
+}
 </style>

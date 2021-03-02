@@ -181,6 +181,10 @@ name: "PGMain"
   padding: 1px;
 }
 .articol-links-titles{
-
+}
+@media screen and (max-width: 768px){
+  .articol{
+    padding: 1rem;
+  }
 }
 </style>

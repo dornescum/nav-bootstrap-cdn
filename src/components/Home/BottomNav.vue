@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-6">
     <ul class="bottom-nav mt-3">
 <!--poetii-->
       <div class="dropdown">

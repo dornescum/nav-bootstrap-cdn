@@ -32,7 +32,9 @@ name: "BibliografieHead"
   box-sizing: border-box;
 }
 
-
+/*.main_container{*/
+/*  margin-top: 4rem;*/
+/*}*/
 a {
   color: var(--black-1);
   text-decoration: none;
