@@ -16,5 +16,9 @@ name: "CategorieArticolTop"
 
 <style scoped>
 
-
+@media screen and (max-width: 768px){
+  h2 {
+    font-size: 1rem;
+  }
+}
 </style>

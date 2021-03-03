@@ -60,6 +60,11 @@ export default {
   --line-spacing: 1.2px;
 }
 /*general*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 ul{
   list-style: none;
 }
