@@ -76,7 +76,7 @@
                 <router-link to="/biografiePoet">Biografie Poet</router-link>
               </li>
               <li>
-                <router-link to="/contact">Contact</router-link>
+                <router-link to="/categorieArticole">Categorie Articole</router-link>
               </li>
 
               <li>
