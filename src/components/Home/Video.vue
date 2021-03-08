@@ -120,7 +120,7 @@ list-style: none;
 @media screen and (max-width: 768px){
   .video-main{
     height: 260px;
-    width: 380px;
+    width: 300px;
   }
 }
 @media screen and (max-width: 499px){

@@ -1,0 +1,45 @@
+{
+  "articole": [
+    {
+      "title": "Nichifor Crainic",
+      "autor": "Biografie",
+      "editura": "tei",
+      "orasul": "Cluj",
+      "editia": "1",
+      "pagini": 320,
+      "foto": "https://images.unsplash.com/photo-1610386056137-dfb0cc50dca6?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "id": 1
+    },
+    {
+      "title": "Nichifor Crainic1",
+      "autor": "Biografie",
+      "editura": "tei",
+      "orasul": "Bucuresti",
+      "editia": "1",
+      "pagini": 320,
+      "foto": "https://images.unsplash.com/photo-1610386056137-dfb0cc50dca6?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "id": 2
+    },
+    {
+      "title": "Nichifor Crainic2",
+      "autor": "Biografie",
+      "editura": "tei",
+      "orasul": "Constanta",
+      "editia": "1",
+      "pagini": 320,
+      "foto": "https://images.unsplash.com/photo-1610386056137-dfb0cc50dca6?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "id":3
+    },
+    {
+      "title": "Nichifor Crainic3",
+      "autor": "Biografie",
+      "editura": "tei",
+      "orasul": "Timisoara",
+      "editia": "1",
+      "pagini": 320,
+      "foto": "https://images.unsplash.com/photo-1610386056137-dfb0cc50dca6?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fF84ekZIdWhSaHlvfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    }
+
+  ]
+}

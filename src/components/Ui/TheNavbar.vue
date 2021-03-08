@@ -40,7 +40,7 @@
                 <hr class="dropdown-divider">
               </li>
               <li>
-                <router-link to="/bibliografie">Bibliografie</router-link>
+                <router-link to="/videoteca">Videoteca</router-link>
 
               </li>
             </ul>
@@ -105,7 +105,7 @@
                 <hr class="dropdown-divider">
               </li>
               <li>
-                <router-link to="/bibliografie">Bibliografie</router-link>
+                <router-link to="/testFetch">Test Fetch</router-link>
               </li>
             </ul>
           </li>

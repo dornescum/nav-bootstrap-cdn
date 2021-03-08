@@ -1,10 +1,11 @@
 <template>
   <div>
+
     <div class="container">
       <!--        1-->
-      <div v-for="book in books" :key="book.id">
+      <div >
         <div class="row">
-          <div class="col-lg-6 flex-align book-box">
+          <div class="col-lg-6 flex-align book-box" v-for="book in books" :key="book.id">
             <div class="col-lg-6">
               <div class="img-book">
                 <img :src="book.foto">
@@ -19,21 +20,7 @@
               <p class="book-info"><span class="bold">Nr. pagini : {{ book.pagini }} </span> </p>
             </div>
           </div>
-          <div class="col-lg-6 flex-align book-box">
-            <div class="col-lg-6">
-              <div class="img-book">
-                <img :src="book.foto">
-              </div>
-            </div>
-            <div class="col-lg-6 about-book">
-              <p class="book-info"><span class="bold">Titlu :</span><a href="" class="color-red">{{book.title}}</a></p>
-              <p class="book-info"><span class="bold">Autor : {{ book.autor }} </span> </p>
-              <p class="book-info"><span class="bold">Editura : {{book.editura}}</span> </p>
-              <p class="book-info"><span class="bold">Oras : {{ book.orasul }}</span> </p>
-              <p class="book-info"><span class="bold">Editia : {{book.editia}} </span> </p>
-              <p class="book-info"><span class="bold">Nr. pagini : {{ book.pagini }} </span> </p>
-            </div>
-          </div>
+
         </div>
         <div class="border-bottom-grey"></div>
       </div>
@@ -122,7 +109,6 @@ name: "BibliogarfieMain",
   margin-right: auto;
   margin-left: auto;
 }
-
 .about-book {
   font-size: 16px;
   /*padding: 10px 45px 10px 0;*/
@@ -145,32 +131,32 @@ name: "BibliogarfieMain",
   height: 100%;
   object-fit: contain;
 }
+img{
+  width: 18rem;
+}
 .picture-info {
   /*width: 100%;*/
-  height: 380px;
-  object-position: center;
-  padding: 15px 5px;
+  /*height: 380px;*/
+  /*width: 20rem;*/
+  /*object-position: center;*/
+  /*padding: 15px 5px;*/
 }
-
 .row {
   display: flex;
   margin-right: -15px;
   margin-left: -15px;
   padding: 20px 5px;
 }
-
 .col-lg-6 {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
 .flex-align {
   display: flex;
 }
-
 .book-box {
   height: 380px;
-  padding: 0 1px;
+  padding: 10px 1px;
   margin: 0;
 }
 a {

@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+<!--    1-->
     <div class="row box-article">
       <div class="col-lg-7">
         <h2 class="title-h2">In ce conditii s-a nascut poedia din inchisori</h2>
@@ -16,6 +17,7 @@
         </div>
       </div>
     </div>
+<!--    2-->
     <div class="row grey-background box-article">
       <div class="col-lg-7">
         <h2 class="title-h2 ">Cum a fost creata si transmisă poezia in inchisori</h2>
@@ -52,6 +54,7 @@
         </div>
       </div>
     </div>
+<!--    3-->
     <div class="row box-article">
       <div class="col-lg-7">
         <h2 class="title-h2 pl-2 pt-1">Circularea poeziilor prin inchisori</h2>
@@ -65,23 +68,12 @@
       </div>
       <div class="col-lg-5">
         <div class="img-book">
-          <!--						<img src="images/sinteza.png" alt="books" class="picture-info">-->
           <picture>
-<!--            <source-->
-<!--                srcset="./images/utils/biserica2-640.webp"-->
-
-<!--                media="all and (max-width:600px)"-->
-<!--            />-->
-<!--            <source-->
-<!--                srcset="./images/utils/biserica1-1920.webp"-->
-
-<!--                media="all and (min-width: 601px) and (max-width:1200px)"-->
-<!--            />-->
-
+          <!--						<img src="images/sinteza.png" alt="books" class="picture-info">-->
 <!--            <img src="images/utils/1920-1.jpg" alt="books" class="picture-info">-->
-            <img src="https://images.unsplash.com/photo-1528825539566-2bcb5882445c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyb3NzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="books" class="picture-info">
-
+            <img src="https://images.unsplash.com/photo-1528825539566-2bcb5882445c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyb3NzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="picture-info">
           </picture>
+
         </div>
       </div>
     </div>
@@ -108,7 +100,22 @@
 
 <script>
 export default {
-name: "CategorieArticoleMaine"
+name: "CategorieArticoleMaine",
+  data(){
+  return{
+    photos :
+      [
+        {id:1,
+        src: 'https://images.unsplash.com/photo-1528825539566-2bcb5882445c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyb3NzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+        },
+        //   {id:2,
+        // src: 'https://images.unsplash.com/photo-1528357136257-0c25517acfea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+        // },
+
+         ]
+    }
+
+  }
 }
 </script>
 
@@ -147,10 +154,11 @@ name: "CategorieArticoleMaine"
   padding:  1rem 0;
 }
 .picture-info {
-  width: 100%;
+  /*width: 100%;*/
   height: 21rem;
   object-position: center;
   padding: 1rem .4rem;
+  cursor: pointer;
 }
 .img-book{
   /*margin: 2px 0;*/
@@ -212,6 +220,8 @@ name: "CategorieArticoleMaine"
     height: 16rem;
     object-position: center;
     padding: 15px 5px;
+    width: 100%;
+
   }
 }
 </style>
