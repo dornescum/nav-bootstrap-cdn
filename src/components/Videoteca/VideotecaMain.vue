@@ -1,9 +1,9 @@
 <template>
 
     <div class="container" >
-      <div v-if="loading">Loading ...</div>
+<!--      <div v-if="loading">Loading ...</div>-->
       <!--        1-->
-      <div class="row-flex-wrap"  v-else>
+      <div class="row-flex-wrap">
         <div class="columns" v-for="video in videos" :key="video.id">
           <div class="border">
             <div class="video-container">

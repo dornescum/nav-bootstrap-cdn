@@ -135,8 +135,8 @@
 
         </ul>
         <form class="d-flex">
-          <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
-          <button class="btn btn-outline-secondary" type="submit" id="search">Search</button>
+          <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search" @input="addSearch">
+          <button class="btn btn-outline-secondary" type="submit" id="search" @click="resetSearch">Search</button>
         </form>
       </div>
     </div>
@@ -145,7 +145,24 @@
 
 <script>
 export default {
-  name: "TheNavbar"
+  name: "TheNavbar",
+  data(){
+    return{
+      enteredValue: '',
+      search: []
+    }
+  },
+  methods:{
+    addSearch(e){
+      this.enteredValue = e.target.value;
+      console.log(e.target.value);
+    },
+    resetSearch(){
+      this.enteredValue= ' ';
+    }
+
+
+  }
 }
 </script>
 

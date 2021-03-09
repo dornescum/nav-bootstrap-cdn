@@ -12,7 +12,7 @@ import VideotecaTop from "@/components/Videoteca/VideotecaTop";
 export default {
 name: "Videoteca",
   components:{
-  VideotecaMain,
+    VideotecaMain,
     VideotecaTop
   }
 }
