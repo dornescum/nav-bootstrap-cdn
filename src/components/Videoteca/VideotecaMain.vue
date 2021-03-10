@@ -21,11 +21,7 @@
 
           </div>
         </div>
-
-
-
       </div>
-
       <Pagination />
     </div>
 
@@ -52,7 +48,7 @@ name: "VideotecaMain",
           id: 1
         },
         {
-          title:"Colindul robului 1",
+          title:"Colindul robului 2",
           avatar:"https://youtu.be/F10IetLz71s",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -60,7 +56,7 @@ name: "VideotecaMain",
           id: 2
         },
   {
-          title:"Colindul robului 1",
+          title:"Colindul robului 4",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -68,7 +64,7 @@ name: "VideotecaMain",
           id: 3
         },
         {
-          title:"Colindul robului 1",
+          title:"Colindul robului 3",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -76,7 +72,7 @@ name: "VideotecaMain",
           id: 4
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 4",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -84,7 +80,7 @@ name: "VideotecaMain",
           id:5
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 5",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -92,7 +88,7 @@ name: "VideotecaMain",
           id:6
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 6",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -100,7 +96,7 @@ name: "VideotecaMain",
           id:7
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 7",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -108,7 +104,7 @@ name: "VideotecaMain",
           id: 8
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 8",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -116,7 +112,7 @@ name: "VideotecaMain",
           id: 12
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 9",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -124,7 +120,7 @@ name: "VideotecaMain",
           id: 9
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 10",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
@@ -132,7 +128,7 @@ name: "VideotecaMain",
           id: 10
         },
  {
-          title:"Colindul robului 1",
+          title:"Colindul robului 11",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
