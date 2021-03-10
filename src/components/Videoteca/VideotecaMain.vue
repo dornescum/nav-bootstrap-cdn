@@ -53,10 +53,10 @@ name: "VideotecaMain",
         },
         {
           title:"Colindul robului 1",
-          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          avatar:"https://youtu.be/F10IetLz71s",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
-          videoLink: "https://www.youtube.com/embed/hF9Gr5waAJg",
+          videoLink: "https://www.youtube.com/embed/F10IetLz71s",
           id: 2
         },
   {
@@ -64,7 +64,7 @@ name: "VideotecaMain",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
-          videoLink: "https://www.youtube.com/embed/hF9Gr5waAJg",
+          videoLink: "https://www.youtube.com/embed/U7r2YwvBgQ0",
           id: 3
         },
         {
@@ -72,8 +72,72 @@ name: "VideotecaMain",
           avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
           lyrics:"Valeriu Gafencu",
           music:"Dan Vasilescu(Trupa Acum)",
-          videoLink: "https://www.youtube.com/embed/hF9Gr5waAJg",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
           id: 4
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/LJ7qXHjxj_0",
+          id:5
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/KhaUnHJjS8A",
+          id:6
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id:7
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id: 8
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id: 12
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id: 9
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id: 10
+        },
+ {
+          title:"Colindul robului 1",
+          avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbNVB6ZofywgxyNHqU6jjpJTX-URIUGuQwg&usqp=CAU",
+          lyrics:"Valeriu Gafencu",
+          music:"Dan Vasilescu(Trupa Acum)",
+          videoLink: "https://www.youtube.com/embed/-AJrAem0YyA",
+          id: 11
         },
 
       ]
@@ -168,7 +232,7 @@ name: "VideotecaMain",
   }
   .video-link{
     height: 200px;
-    width: 340px;
+    width: 230px;
   }
 }
 #logo{

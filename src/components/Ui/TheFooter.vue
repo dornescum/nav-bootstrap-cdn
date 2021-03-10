@@ -3,11 +3,12 @@
     <div class="main_container">
       <div class="content_footer">
         <div class="footer_main_logo font17 semibold relative">
-          <a href="javascript:void(0)"><img src="http://pi-frontend.cpco.ro/images/Logo_footer_Asset_3@2x.png" alt="Asociatia Ortodoxia Tinerilor" class="logo-foto"></a>
+<!--          <a href="javascript:void(0)"><img src="http://pi-frontend.cpco.ro/images/Logo_footer_Asset_3@2x.png" alt="Asociatia Ortodoxia Tinerilor" class="logo-foto"></a>-->
+          <a href="javascript:void(0)"><img src="@/assets/Logo_footer.png" class="logo-foto"/></a>
           <!--                <p>Un proiect al <span class="silver">Asociatiei Ortodoxia Tinerilor</span></p>-->
         </div>
         <div class="footer_second_logo">
-          <a href="javascript:void(0)"><img src="http://pi-frontend.cpco.ro/images/fcp_logo.jpg" alt="fericiti cei prigoniti"></a>
+          <a href="javascript:void(0)"><img src="@/assets/fcp_logo.jpg" alt="fericiti cei prigoniti"></a>
         </div>
         <div class="footer_contact font17">
           <ul class="footer_contact_net mb20">
